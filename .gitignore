@@ -1,0 +1,28 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ===== Virtual Environment =====
+venv/
+.env/
+.venv/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.iml
+
+# ===== Logs / Temp =====
+*.log
+*.tmp
+
+
+# ===== OCR Sample Noise =====
+._*

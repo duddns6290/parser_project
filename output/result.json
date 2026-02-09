@@ -1,0 +1,70 @@
+[
+  {
+    "file": "sample_01.json",
+    "parsed": {
+      "doc_type": "계량증명서",
+      "weigh_date": "2026-02-02",
+      "vehicle_no": "8713",
+      "customer": "곰욕환경폐기물",
+      "issuer": "동우바이오(주)",
+      "gross_kg": 12480,
+      "tare_kg": 7470,
+      "net_kg": 5010,
+      "validation": {
+        "net_equals_gross_minus_tare": true,
+        "errors": []
+      }
+    }
+  },
+  {
+    "file": "sample_02.json",
+    "parsed": {
+      "doc_type": "계근표",
+      "weigh_date": "2026-02-02",
+      "vehicle_no": "80구8713",
+      "customer": "고요환경",
+      "issuer": "장원C&S",
+      "gross_kg": 13460,
+      "tare_kg": 7560,
+      "net_kg": 5900,
+      "validation": {
+        "net_equals_gross_minus_tare": true,
+        "errors": []
+      }
+    }
+  },
+  {
+    "file": "sample_03.json",
+    "parsed": {
+      "doc_type": "계량확인서",
+      "weigh_date": "2026-02-01",
+      "vehicle_no": "5405",
+      "customer": null,
+      "issuer": "정우리사이클링 (주)",
+      "gross_kg": 14080,
+      "tare_kg": 13950,
+      "net_kg": 130,
+      "validation": {
+        "net_equals_gross_minus_tare": true,
+        "errors": []
+      }
+    }
+  },
+  {
+    "file": "sample_04.json",
+    "parsed": {
+      "doc_type": "계량증명서",
+      "weigh_date": "2025-12-01",
+      "vehicle_no": "0580",
+      "customer": "신성(푸디스트)",
+      "issuer": "(주) 하은펄프",
+      "gross_kg": 14230,
+      "tare_kg": 12910,
+      "net_kg": 1320,
+      "validation": {
+        "net_equals_gross_minus_tare": true,
+        "errors": []
+      }
+    }
+  }
+]
